@@ -12,8 +12,8 @@ public class eAgamaTipeEnum {
         System.out.print("Agama \t\t: ");
         String inputAgama = input.nextLine().toUpperCase();
         
-        String kitabSuci;
-        String nabi;
+        String kitabSuci = "";
+        String nabi = "";
         
         try {
             Agama agama = Agama.valueOf(inputAgama);
@@ -21,39 +21,26 @@ public class eAgamaTipeEnum {
             switch (agama) {
                 case HINDU:
                     kitabSuci = "Veda";
-                    nabi = "-";
-                    System.out.println("Kitab Suci \t: "+kitabSuci);
-                    System.out.println("Nabi \t\t: "+nabi);
                     break;
                 case BUDDHA:
                     kitabSuci = "Tripitaka";
                     nabi = "Sidharta Gautama";
-                    System.out.println("Kitab Suci \t: "+kitabSuci);
-                    System.out.println("Nabi \t\t: "+nabi);
                     break;
                 case YAHUDI:
                     kitabSuci = "Taurat";
                     nabi = "Musa";
-                    System.out.println("Kitab Suci \t: "+kitabSuci);
-                    System.out.println("Nabi \t\t: "+nabi);
                     break;
                 case KATOLIK:
                     kitabSuci = "Injil";
                     nabi = "Yesus";
-                    System.out.println("Kitab Suci \t: "+kitabSuci);
-                    System.out.println("Nabi \t\t: "+nabi);
                     break;
                 case KRISTEN:
                     kitabSuci = "Injil";
                     nabi = "Yesus";
-                    System.out.println("Kitab Suci \t: "+kitabSuci);
-                    System.out.println("Nabi \t\t: "+nabi);
                     break;
                 case ISLAM:
                     kitabSuci = "Alquran";
                     nabi = "Muhammad";
-                    System.out.println("Kitab Suci \t: "+kitabSuci);
-                    System.out.println("Nabi \t\t: "+nabi);
                     break;
                 case ATHEIS:
                     System.out.println("Ngapain jirrr");
@@ -64,6 +51,8 @@ public class eAgamaTipeEnum {
                 input.close();
                     return;
         }
+        System.out.println("Kitab Suci \t: "+kitabSuci);
+        System.out.println("Nabi \t\t: "+nabi);
         input.close();
     }
 }
