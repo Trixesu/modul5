@@ -7,37 +7,37 @@ public class aScannerBulan {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Masukkan Angka Bulan (1-12) : ");
-        int bulan = input.nextInt();
-        String bulanString;
+        int month = input.nextInt();
+        String monthString;
         
-        switch (bulan) {
-            case 1:  bulanString = "Januari";
+        switch (month) {
+            case 1:  monthString = "Januari";
                      break;
-            case 2:  bulanString = "Februari";
+            case 2:  monthString = "Februari";
                      break;
-            case 3:  bulanString = "Maret";
+            case 3:  monthString = "Maret";
                      break;
-            case 4:  bulanString = "April";
+            case 4:  monthString = "April";
                      break;
-            case 5:  bulanString = "Mei";
+            case 5:  monthString = "Mei";
                      break;
-            case 6:  bulanString = "Juni";
+            case 6:  monthString = "Juni";
                      break;
-            case 7:  bulanString = "Juli";
+            case 7:  monthString = "Juli";
                      break;
-            case 8:  bulanString = "Agustus";
+            case 8:  monthString = "Agustus";
                      break;
-            case 9:  bulanString = "September";
+            case 9:  monthString = "September";
                      break;
-            case 10: bulanString = "Oktober";
+            case 10: monthString = "Oktober";
                      break;
-            case 11: bulanString = "November";
+            case 11: monthString = "November";
                      break;
-            case 12: bulanString = "Desember";
+            case 12: monthString = "Desember";
                      break;
-            default: bulanString = "Invalid month";
+            default: monthString = "Bulan invalid";
                      break;
         }
-        System.out.println(bulanString);
+        System.out.println(monthString);
     }
 }
