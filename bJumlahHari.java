@@ -64,6 +64,7 @@ public class bJumlahHari {
                 System.out.println("Bulan tidak valid");
                 break;
         }
+        input.close();
         System.out.println("Bulan "+namaBulan+" ada "+jumlahHari+" hari");
     }
 }
