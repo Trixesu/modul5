@@ -1,4 +1,4 @@
-package modulv;
+package belajar.module5;
 
 public class SwitchDemo {
     public static void main(String[] args) {
