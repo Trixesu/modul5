@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class eAgamaTipeEnum {
     enum Agama {
-        HINDU, BUDDHA, YAHUDI, KATOLIK, KRISTEN, ISLAM, ATHEIS
+        HINDU, BUDDHA, YAHUDI, KATOLIK, KRISTEN, ISLAM
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -41,9 +41,6 @@ public class eAgamaTipeEnum {
                 case ISLAM:
                     kitabSuci = "Alquran";
                     nabi = "Muhammad";
-                    break;
-                case ATHEIS:
-                    System.out.println("Ngapain jirrr");
                     break;
             }
         } catch (IllegalArgumentException e){
