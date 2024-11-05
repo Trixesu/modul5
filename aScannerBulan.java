@@ -38,6 +38,7 @@ public class aScannerBulan {
             default: monthString = "Bulan invalid";
                      break;
         }
+        input.close();
         System.out.println(monthString);
     }
 }
