@@ -1,4 +1,4 @@
-package modulv;
+package belajar.module5;
 
 import java.util.Scanner;
 
